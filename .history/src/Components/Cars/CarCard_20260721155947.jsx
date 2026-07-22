@@ -20,8 +20,7 @@ function CarCard({ car }) {
   return (
     <Link to={`/cars/${car.id}`} className="car-card">
       <div className="car-card-img">
-        {/* FIX: db.json-da sahə "sekil" adlanır, "sekiller" deyil */}
-        <img src={car.sekil || 'https://placehold.co/400x300'} alt={`${car.marka} ${car.model}`} />
+        <img src={car.sekiller && car.sekiller[0] ? car.sekiller[0] : 'https://placehold.co/400x300'} alt={`${car.marka} ${car.model}`} />
         <button className="wishlist-toggle" onClick={toggleWishlist}>
           {isWished ? <FaHeart className="wished" /> : <FaRegHeart />}
         </button>
@@ -51,8 +50,7 @@ function CarCard({ car }) {
           </div>
           <div className="spec-item">
             <span>Mühərrik</span>
-            {/* FIX: sahə "muherrik_hecmi_l" deyil, "muherrik_hecmi"-dir */}
-            <strong>{car.muherrik_hecmi} L</strong>
+            <strong>{car.muherrik_hecmi_l}L</strong>
           </div>
         </div>
       </div>
