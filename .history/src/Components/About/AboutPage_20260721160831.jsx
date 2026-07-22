@@ -66,11 +66,9 @@ function AboutPage() {
               {team.map(member => (
                 <div key={member.id} className="team-card">
                   <div className="team-photo">
-                    {/* FIX: db.json-da sahə "foto" adlanır, "foto_url" deyil */}
-                    <img src={member.foto} alt={member.ad_soyad} />
+                    <img src={member.foto_url} alt={`${member.ad} ${member.soyad}`} />
                   </div>
-                  {/* FIX: db.json-da ad və soyad ayrı sahə deyil, tək "ad_soyad" sahəsidir */}
-                  <h3>{member.ad_soyad}</h3>
+                  <h3>{member.ad} {member.soyad}</h3>
                   <p className="team-role">{member.vezife}</p>
                   <p className="team-country">{member.olke}</p>
                 </div>
