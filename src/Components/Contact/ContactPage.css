@@ -39,6 +39,19 @@
   border-color: var(--primary);
 }
 
+.contact-form input.input-error,
+.contact-form textarea.input-error {
+  border-color: #d32f2f;
+  background-color: #fff5f5;
+}
+
+.error-message {
+  color: #d32f2f;
+  font-size: 0.85rem;
+  margin-top: 0.35rem;
+  font-weight: 500;
+}
+
 .success-msg {
   background-color: #e6f7e6;
   color: #2e7d32;

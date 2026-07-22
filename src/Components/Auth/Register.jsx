@@ -12,20 +12,34 @@ function Register() {
   const [showPassword, setShowPassword] = useState(false);
   const [showRepeatPassword, setShowRepeatPassword] = useState(false);
   const [error, setError] = useState('');
+  const [errors, setErrors] = useState({});
   const { register } = useContext(AuthContext);
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
+    setErrors({});
     
-    if (!email || !username || !password || !repeatPassword) {
-      setError('Please fill in all fields');
-      return;
+    const newErrors = {};
+    if (!email.trim()) {
+      newErrors.email = 'Email is required';
     }
-
-    if (password !== repeatPassword) {
-      setError('Passwords do not match');
+    if (!username.trim()) {
+      newErrors.username = 'Username is required';
+    }
+    if (!password.trim()) {
+      newErrors.password = 'Password is required';
+    }
+    if (!repeatPassword.trim()) {
+      newErrors.repeatPassword = 'Please repeat your password';
+    }
+    if (password && repeatPassword && password !== repeatPassword) {
+      newErrors.repeatPassword = 'Passwords do not match';
+    }
+    
+    if (Object.keys(newErrors).length > 0) {
+      setErrors(newErrors);
       return;
     }
 
@@ -34,6 +48,34 @@ function Register() {
       navigate('/');
     } else {
       setError(result.message);
+    }
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+    if (errors.email) {
+      setErrors(prev => ({ ...prev, email: undefined }));
+    }
+  };
+
+  const handleUsernameChange = (e) => {
+    setUsername(e.target.value);
+    if (errors.username) {
+      setErrors(prev => ({ ...prev, username: undefined }));
+    }
+  };
+
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+    if (errors.password) {
+      setErrors(prev => ({ ...prev, password: undefined }));
+    }
+  };
+
+  const handleRepeatPasswordChange = (e) => {
+    setRepeatPassword(e.target.value);
+    if (errors.repeatPassword) {
+      setErrors(prev => ({ ...prev, repeatPassword: undefined }));
     }
   };
 
@@ -61,9 +103,11 @@ function Register() {
               <input 
                 type="email" 
                 value={email} 
-                onChange={(e) => setEmail(e.target.value)} 
+                onChange={handleEmailChange} 
                 placeholder="Enter email"
+                className={errors.email ? 'input-error' : ''}
               />
+              {errors.email && <span className="error-message">{errors.email}</span>}
             </div>
 
             <div className="form-group">
@@ -71,9 +115,11 @@ function Register() {
               <input 
                 type="text" 
                 value={username} 
-                onChange={(e) => setUsername(e.target.value)} 
+                onChange={handleUsernameChange} 
                 placeholder="Enter username or email"
+                className={errors.username ? 'input-error' : ''}
               />
+              {errors.username && <span className="error-message">{errors.username}</span>}
             </div>
 
             <div className="form-group">
@@ -82,8 +128,9 @@ function Register() {
                 <input 
                   type={showPassword ? 'text' : 'password'} 
                   value={password} 
-                  onChange={(e) => setPassword(e.target.value)} 
+                  onChange={handlePasswordChange} 
                   placeholder="Enter password"
+                  className={errors.password ? 'input-error' : ''}
                 />
                 <button 
                   type="button" 
@@ -93,6 +140,7 @@ function Register() {
                   {showPassword ? <FaEyeSlash /> : <FaEye />}
                 </button>
               </div>
+              {errors.password && <span className="error-message">{errors.password}</span>}
             </div>
 
             <div className="form-group">
@@ -101,8 +149,9 @@ function Register() {
                 <input 
                   type={showRepeatPassword ? 'text' : 'password'} 
                   value={repeatPassword} 
-                  onChange={(e) => setRepeatPassword(e.target.value)} 
+                  onChange={handleRepeatPasswordChange} 
                   placeholder="Enter password again"
+                  className={errors.repeatPassword ? 'input-error' : ''}
                 />
                 <button 
                   type="button" 
@@ -112,6 +161,7 @@ function Register() {
                   {showRepeatPassword ? <FaEyeSlash /> : <FaEye />}
                 </button>
               </div>
+              {errors.repeatPassword && <span className="error-message">{errors.repeatPassword}</span>}
             </div>
 
             <button type="submit" className="auth-submit-btn">Sign Up</button>

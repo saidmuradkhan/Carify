@@ -10,13 +10,35 @@ function ContactPage() {
     message: ''
   });
   const [submitted, setSubmitted] = useState(false);
+  const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
-    setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+    if (errors[name]) {
+      setErrors(prev => ({ ...prev, [name]: undefined }));
+    }
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const newErrors = {};
+    
+    if (!formData.name.trim()) {
+      newErrors.name = 'Name is required';
+    }
+    if (!formData.email.trim()) {
+      newErrors.email = 'Email is required';
+    }
+    if (!formData.message.trim()) {
+      newErrors.message = 'Message is required';
+    }
+    
+    if (Object.keys(newErrors).length > 0) {
+      setErrors(newErrors);
+      return;
+    }
+    
     // Mock submission
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 3000);
@@ -35,11 +57,13 @@ function ContactPage() {
             <form onSubmit={handleSubmit} className="contact-form">
               <div className="form-group">
                 <label>Ad və Soyad</label>
-                <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Adınız" required />
+                <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Adınız" className={errors.name ? 'input-error' : ''} />
+                {errors.name && <span className="error-message">{errors.name}</span>}
               </div>
               <div className="form-group">
                 <label>Email</label>
-                <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="E-poçtunuz" required />
+                <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="E-poçtunuz" className={errors.email ? 'input-error' : ''} />
+                {errors.email && <span className="error-message">{errors.email}</span>}
               </div>
               <div className="form-group">
                 <label>Telefon</label>
@@ -47,7 +71,8 @@ function ContactPage() {
               </div>
               <div className="form-group">
                 <label>Mesaj</label>
-                <textarea name="message" rows="5" value={formData.message} onChange={handleChange} placeholder="Mesajınız..." required></textarea>
+                <textarea name="message" rows="5" value={formData.message} onChange={handleChange} placeholder="Mesajınız..." className={errors.message ? 'input-error' : ''}></textarea>
+                {errors.message && <span className="error-message">{errors.message}</span>}
               </div>
               <button type="submit" className="btn-primary">Göndər</button>
             </form>

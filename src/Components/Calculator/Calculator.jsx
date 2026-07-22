@@ -13,6 +13,7 @@ function Calculator() {
     diger_xercler: ''
   });
   const [result, setResult] = useState(null);
+  const [errors, setErrors] = useState({});
 
   useEffect(() => {
     const fetchRates = async () => {
@@ -29,12 +30,32 @@ function Calculator() {
   }, []);
 
   const handleChange = (e) => {
-    setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+    if (errors[name]) {
+      setErrors(prev => ({ ...prev, [name]: undefined }));
+    }
   };
 
   const calculate = (e) => {
     e.preventDefault();
     if (!rates) return;
+
+    const newErrors = {};
+    if (!formData.istehsal_ili.trim()) {
+      newErrors.istehsal_ili = 'İstehsal ili is required';
+    }
+    if (!formData.muherrik_hecmi.trim()) {
+      newErrors.muherrik_hecmi = 'Mühərrik həcmi is required';
+    }
+    if (!formData.invoys_deyeri.trim()) {
+      newErrors.invoys_deyeri = 'İnvoys dəyəri is required';
+    }
+    
+    if (Object.keys(newErrors).length > 0) {
+      setErrors(newErrors);
+      return;
+    }
 
     const invoys = parseFloat(formData.invoys_deyeri) || 0;
     const neqliyyat = parseFloat(formData.neqliyyat_xerci) || 0;
@@ -68,7 +89,8 @@ function Calculator() {
           <form onSubmit={calculate} className="calculator-form">
             <div className="form-group">
               <label>İstehsal İli</label>
-              <input type="number" name="istehsal_ili" value={formData.istehsal_ili} onChange={handleChange} placeholder="Məs: 2020" required />
+              <input type="number" name="istehsal_ili" value={formData.istehsal_ili} onChange={handleChange} placeholder="Məs: 2020" className={errors.istehsal_ili ? 'input-error' : ''} />
+              {errors.istehsal_ili && <span className="error-message">{errors.istehsal_ili}</span>}
             </div>
             
             <div className="form-group">
@@ -83,12 +105,14 @@ function Calculator() {
 
             <div className="form-group">
               <label>Mühərrik Həcmi (sm³)</label>
-              <input type="number" name="muherrik_hecmi" value={formData.muherrik_hecmi} onChange={handleChange} placeholder="Məs: 2000" required />
+              <input type="number" name="muherrik_hecmi" value={formData.muherrik_hecmi} onChange={handleChange} placeholder="Məs: 2000" className={errors.muherrik_hecmi ? 'input-error' : ''} />
+              {errors.muherrik_hecmi && <span className="error-message">{errors.muherrik_hecmi}</span>}
             </div>
 
             <div className="form-group">
               <label>İnvoys Dəyəri ($)</label>
-              <input type="number" name="invoys_deyeri" value={formData.invoys_deyeri} onChange={handleChange} placeholder="Məs: 15000" required />
+              <input type="number" name="invoys_deyeri" value={formData.invoys_deyeri} onChange={handleChange} placeholder="Məs: 15000" className={errors.invoys_deyeri ? 'input-error' : ''} />
+              {errors.invoys_deyeri && <span className="error-message">{errors.invoys_deyeri}</span>}
             </div>
 
             <div className="form-group">

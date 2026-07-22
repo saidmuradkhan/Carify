@@ -8,10 +8,13 @@
       "yurus_km": 31762,
       "muherrik_hecmi": 2,
       "yanacaq_novu": "Benzin",
+      "oturucu": "Avtomat",
+      "reng": "Yaşıl",
       "qiymet_usd": 52900,
       "status": "Stokda",
       "sekil": "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&auto=format&fit=crop&q=60"
       ],
@@ -30,10 +33,13 @@
       "yurus_km": 165324,
       "muherrik_hecmi": 2,
       "yanacaq_novu": "LPG",
+      "oturucu": "Avtomat",
+      "reng": "Ağ",
       "qiymet_usd": 9300,
       "status": "Stokda",
       "sekil": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -49,10 +55,13 @@
       "yurus_km": 172309,
       "muherrik_hecmi": 1.5,
       "yanacaq_novu": "Benzin",
+      "oturucu": "Avtomat",
+      "reng": "Gümüşü",
       "qiymet_usd": 3700,
       "status": "Stokda",
       "sekil": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -68,10 +77,13 @@
       "yurus_km": 146227,
       "muherrik_hecmi": 1.6,
       "yanacaq_novu": "Benzin",
+      "oturucu": "Avtomat",
+      "reng": "Qara",
       "qiymet_usd": 6100,
       "status": "Stokda",
       "sekil": "https://images.unsplash.com/photo-1616788494707-ec28f08d05a1?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1616788494707-ec28f08d05a1?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -87,10 +99,13 @@
       "yurus_km": 203629,
       "muherrik_hecmi": 1.5,
       "yanacaq_novu": "Benzin",
+      "oturucu": "Avtomat",
+      "reng": "Ağ",
       "qiymet_usd": 3500,
       "status": "Stokda",
       "sekil": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -106,10 +121,13 @@
       "yurus_km": 121219,
       "muherrik_hecmi": 2,
       "yanacaq_novu": "Benzin",
+      "oturucu": "Avtomat",
+      "reng": "Qırmızı",
       "qiymet_usd": 7200,
       "status": "Stokda",
       "sekil": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1563720223185-11003d516935?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -125,10 +143,13 @@
       "yurus_km": 94000,
       "muherrik_hecmi": 1.5,
       "yanacaq_novu": "Benzin",
+      "oturucu": "Avtomat",
+      "reng": "Göy",
       "qiymet_usd": 4500,
       "status": "Satılıb",
       "sekil": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -144,10 +165,13 @@
       "yurus_km": 139190,
       "muherrik_hecmi": 2,
       "yanacaq_novu": "Dizel",
+      "oturucu": "Avtomat",
+      "reng": "Qara",
       "qiymet_usd": 13300,
       "status": "Satılıb",
       "sekil": "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1609521270631-f192b152dc34?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -163,10 +187,13 @@
       "yurus_km": 58200,
       "muherrik_hecmi": 1.6,
       "yanacaq_novu": "Dizel",
+      "oturucu": "Avtomat",
+      "reng": "Ağ",
       "qiymet_usd": 18700,
       "status": "Stokda",
       "sekil": "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1621993202323-f438eec934ff?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -182,10 +209,13 @@
       "yurus_km": 32100,
       "muherrik_hecmi": 3.5,
       "yanacaq_novu": "Benzin",
+      "oturucu": "Avtomat",
+      "reng": "Qara",
       "qiymet_usd": 47500,
       "status": "Stokda",
       "sekil": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1627454820516-dc767bcb4d3e?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -201,10 +231,13 @@
       "yurus_km": 45000,
       "muherrik_hecmi": 2,
       "yanacaq_novu": "Benzin",
+      "oturucu": "Avtomat",
+      "reng": "Boz",
       "qiymet_usd": 34000,
       "status": "Stokda",
       "sekil": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -220,10 +253,13 @@
       "yurus_km": 112000,
       "muherrik_hecmi": 2,
       "yanacaq_novu": "Dizel",
+      "oturucu": "Avtomat",
+      "reng": "Qəhvəyi",
       "qiymet_usd": 16500,
       "status": "Stokda",
       "sekil": "https://images.unsplash.com/photo-1567818735868-e71b99932e29?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1567818735868-e71b99932e29?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1603566723821-397cf07470f1?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -239,10 +275,13 @@
       "yurus_km": 68000,
       "muherrik_hecmi": 2.2,
       "yanacaq_novu": "Dizel",
+      "oturucu": "Avtomat",
+      "reng": "Ağ",
       "qiymet_usd": 24500,
       "status": "Stokda",
       "sekil": "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1630058721665-27a3c3eef591?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -258,10 +297,13 @@
       "yurus_km": 95000,
       "muherrik_hecmi": 2,
       "yanacaq_novu": "Benzin",
+      "oturucu": "Avtomat",
+      "reng": "Qara",
       "qiymet_usd": 29000,
       "status": "Stokda",
       "sekil": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -271,16 +313,19 @@
     },
     {
       "id": "15",
-      "Toyota": "Toyota",
+      "marka": "Toyota",
       "model": "Camry",
       "il": 2020,
       "yurus_km": 82000,
       "muherrik_hecmi": 2.5,
       "yanacaq_novu": "Hibrid",
+      "oturucu": "Avtomat",
+      "reng": "Gümüşü",
       "qiymet_usd": 21000,
       "status": "Stokda",
       "sekil": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -296,10 +341,13 @@
       "yurus_km": 73000,
       "muherrik_hecmi": 3.8,
       "yanacaq_novu": "Benzin",
+      "oturucu": "Avtomat",
+      "reng": "Qara",
       "qiymet_usd": 31500,
       "status": "Stokda",
       "sekil": "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -315,10 +363,13 @@
       "yurus_km": 105000,
       "muherrik_hecmi": 1.6,
       "yanacaq_novu": "Dizel",
+      "oturucu": "Avtomat",
+      "reng": "Boz",
       "qiymet_usd": 14200,
       "status": "Satılıb",
       "sekil": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1494976388531-d1058094e2bd?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -334,10 +385,13 @@
       "yurus_km": 41000,
       "muherrik_hecmi": 2.5,
       "yanacaq_novu": "Benzin",
+      "oturucu": "Avtomat",
+      "reng": "Ağ",
       "qiymet_usd": 38000,
       "status": "Stokda",
       "sekil": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1627454820516-dc767bcb4d3e?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -353,10 +407,13 @@
       "yurus_km": 29000,
       "muherrik_hecmi": 1.6,
       "yanacaq_novu": "Benzin",
+      "oturucu": "Avtomat",
+      "reng": "Qırmızı",
       "qiymet_usd": 15800,
       "status": "Stokda",
       "sekil": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -372,10 +429,13 @@
       "yurus_km": 52000,
       "muherrik_hecmi": 0,
       "yanacaq_novu": "Elektrik",
+      "oturucu": "Avtomat",
+      "reng": "Ağ",
       "qiymet_usd": 26000,
       "status": "Stokda",
       "sekil": "https://images.unsplash.com/photo-1563720223185-11003d516935?w=600&auto=format&fit=crop&q=60",
       "foto": [
+        "https://images.unsplash.com/photo-1563720223185-11003d516935?w=800&auto=format&fit=crop&q=60",
         "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=800&auto=format&fit=crop&q=60"
       ],
       "video": [],
@@ -512,121 +572,161 @@
       "id": "1",
       "ad_soyad": "Salayev Sadiq",
       "avtomobil_modeli": "Kia Sorento",
-      "olke": "Azerbaijan"
+      "olke": "Azerbaijan",
+      "reytinq": 5,
+      "metn": "Bütün proses şəffaf idi, avtomobil təsvir edildiyi kimi çıxdı. Çox razıyam."
     },
     {
       "id": "2",
       "ad_soyad": "Rəhimov Rəhim",
       "avtomobil_modeli": "Kia Sorento",
-      "olke": "Azerbaijan"
+      "olke": "Azerbaijan",
+      "reytinq": 5,
+      "metn": "Koreyadan avtomobil gətirmək bu qədər asan olacağını düşünmürdüm. Təşəkkürlər Carify komandasına."
     },
     {
       "id": "3",
       "ad_soyad": "Məmmədov Nahid",
       "avtomobil_modeli": "Hyundai Palisade",
-      "olke": "Azerbaijan"
+      "olke": "Azerbaijan",
+      "reytinq": 5,
+      "metn": "Yoxlama hesabatları çox dəqiq idi, heç bir sürpriz olmadı."
     },
     {
       "id": "4",
       "ad_soyad": "Nurəddinli Amal",
       "avtomobil_modeli": "Hyundai Grandeur",
-      "olke": "Russia"
+      "olke": "Russia",
+      "reytinq": 4,
+      "metn": "Çatdırılma bir az gözlədiyimdən uzun çəkdi, amma nəticədən razıyam."
     },
     {
       "id": "5",
       "ad_soyad": "Evgenii Valuy",
       "avtomobil_modeli": "Mercedes Benz G400d",
-      "olke": "Azerbaijan"
+      "olke": "Azerbaijan",
+      "reytinq": 5,
+      "metn": "Premium səviyyəli xidmət, hər addımda məlumatlandırıldım."
     },
     {
       "id": "6",
       "ad_soyad": "Nemət Əsgərov",
       "avtomobil_modeli": "Kia K5",
-      "olke": "Russia"
+      "olke": "Russia",
+      "reytinq": 5,
+      "metn": "Qiymət-keyfiyyət nisbəti əla, tövsiyə edirəm."
     },
     {
       "id": "7",
       "ad_soyad": "Muradin Biramov",
       "avtomobil_modeli": "Kia Carnival",
-      "olke": "Russia"
+      "olke": "Russia",
+      "reytinq": 5,
+      "metn": "Ailəm üçün mükəmməl seçim oldu, komanda çox köməkçi idi."
     },
     {
       "id": "8",
       "ad_soyad": "Tağızadə Şəhruz",
       "avtomobil_modeli": "BMW 530i",
-      "olke": "Azerbaijan"
+      "olke": "Azerbaijan",
+      "reytinq": 5,
+      "metn": "Avtomobilin vəziyyəti təsvirdən də yaxşı idi."
     },
     {
       "id": "9",
       "ad_soyad": "Cabbarlı Rəşad",
       "avtomobil_modeli": "Hyundai Grandeur",
-      "olke": "Azerbaijan"
+      "olke": "Azerbaijan",
+      "reytinq": 4,
+      "metn": "Gömrük prosesində köməkləri çox faydalı oldu."
     },
     {
       "id": "10",
       "ad_soyad": "Əliyev İlqar",
       "avtomobil_modeli": "Kia Sportage",
-      "olke": "Azerbaijan"
+      "olke": "Azerbaijan",
+      "reytinq": 5,
+      "metn": "İkinci dəfədir Carify ilə işləyirəm, hər dəfə məmnun qalmışam."
     },
     {
       "id": "11",
       "ad_soyad": "Həsənov Vüsal",
       "avtomobil_modeli": "Hyundai Tucson",
-      "olke": "Azerbaijan"
+      "olke": "Azerbaijan",
+      "reytinq": 5,
+      "metn": "Sürətli və etibarlı xidmət üçün təşəkkürlər."
     },
     {
       "id": "12",
       "ad_soyad": "Quliyev Elşən",
       "avtomobil_modeli": "Genesis GV80",
-      "olke": "Azerbaijan"
+      "olke": "Azerbaijan",
+      "reytinq": 5,
+      "metn": "Lüks seqmentdə belə xidmət gözləmirdim, çox razıyam."
     },
     {
       "id": "13",
       "ad_soyad": "Kərimov Anar",
       "avtomobil_modeli": "Toyota Camry",
-      "olke": "Azerbaijan"
+      "olke": "Azerbaijan",
+      "reytinq": 5,
+      "metn": "Hibrid model üçün ən sərfəli seçim Carify oldu."
     },
     {
       "id": "14",
       "ad_soyad": "Dmitry Sidorov",
       "avtomobil_modeli": "Kia K5",
-      "olke": "Russia"
+      "olke": "Russia",
+      "reytinq": 4,
+      "metn": "Rusiyaya çatdırılma zamanı hər şey vaxtında oldu."
     },
     {
       "id": "15",
       "ad_soyad": "Babayev Elvin",
       "avtomobil_modeli": "Hyundai Santa Fe",
-      "olke": "Azerbaijan"
+      "olke": "Azerbaijan",
+      "reytinq": 5,
+      "metn": "7 yerlik versiya ailəm üçün tam uyğun gəldi."
     },
     {
       "id": "16",
       "ad_soyad": "Nazarbaev Aslan",
       "avtomobil_modeli": "Hyundai Sonata",
-      "olke": "Kazakhstan"
+      "olke": "Kazakhstan",
+      "reytinq": 5,
+      "metn": "Qazaxıstana çatdırılma prosesi problemsiz keçdi."
     },
     {
       "id": "17",
       "ad_soyad": "İbrahimov Rauf",
       "avtomobil_modeli": "Chevrolet Malibu",
-      "olke": "Azerbaijan"
+      "olke": "Azerbaijan",
+      "reytinq": 4,
+      "metn": "Büdcəyə uyğun, etibarlı bir seçim oldu."
     },
     {
       "id": "18",
       "ad_soyad": "Muradov Zaur",
       "avtomobil_modeli": "Land Rover Defender",
-      "olke": "Azerbaijan"
+      "olke": "Azerbaijan",
+      "reytinq": 5,
+      "metn": "Xəyalımdakı avtomobili Carify vasitəsilə əldə etdim."
     },
     {
       "id": "19",
       "ad_soyad": "Aleksey Volkov",
       "avtomobil_modeli": "Kia Sorento",
-      "olke": "Russia"
+      "olke": "Russia",
+      "reytinq": 5,
+      "metn": "Peşəkar komanda, hər sualıma cavab tapdım."
     },
     {
       "id": "20",
       "ad_soyad": "Mustafayev Tural",
       "avtomobil_modeli": "BMW X5",
-      "olke": "Azerbaijan"
+      "olke": "Azerbaijan",
+      "reytinq": 5,
+      "metn": "Yeni model tez tapıldı və gözlədiyimdən tez çatdırıldı."
     }
   ],
   "team": [
@@ -798,7 +898,7 @@
     {
       "id": "14",
       "sual": "İstədiyim xüsusi komplektasiyanı sifariş edə bilərəm?",
-      "cavab": "Bəli, we müqavilə əsasında sizin tələblərinizə (rəng, disk ölçüsü, salon materialı, lyuk və s.) tam uyğun gələn avtomobilləri Encar və digər daxili bazarlardan axtarıb tapırıq."
+      "cavab": "Bəli, biz müqavilə əsasında sizin tələblərinizə (rəng, disk ölçüsü, salon materialı, lyuk və s.) tam uyğun gələn avtomobilləri Encar və digər daxili bazarlardan axtarıb tapırıq."
     },
     {
       "id": "15",
@@ -828,7 +928,7 @@
     {
       "id": "20",
       "sual": "Gömrük kalkulyatoru necə işləyir?",
-      "cavab": "Avtomobilin mühərrik həcmi, istehsal oli və yanacaq növünə əsasən sistem avtomatik olaraq daxili əmsalları hesablayaraq sizə təxmini xərci çıxarır."
+      "cavab": "Avtomobilin mühərrik həcmi, istehsal ili və yanacaq növünə əsasən sistem avtomatik olaraq daxili əmsalları hesablayaraq sizə təxmini xərci çıxarır."
     }
   ],
   "brands": [
@@ -905,6 +1005,30 @@
       "aksiz_her_sm3": 0.3
     }
   ],
+  "carOrders": [
+    {
+      "brand": "kia",
+      "model": "k5",
+      "subModel": "",
+      "yearFrom": "2013",
+      "yearTo": "2024",
+      "engineCapacity": "2200",
+      "fuelType": "Benzin",
+      "mileageFrom": "0",
+      "mileageTo": "250000",
+      "color": "blue",
+      "repaintedParts": "Yoxdur",
+      "changedParts": "Yoxdur",
+      "priceFrom": "5000",
+      "priceTo": "500000",
+      "customerName": "said",
+      "phoneNumber": "104142624",
+      "notes": "",
+      "phone": "+994 104142624",
+      "tarix": "2026-07-22T07:42:13.638Z",
+      "id": "d20TSyRVlEY"
+    }
+  ],
   "users": [
     {
       "id": "1",
@@ -924,5 +1048,6 @@
       "password": "fxrU9KVV9M2YxAN",
       "id": "x_eoWfE2IXs"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

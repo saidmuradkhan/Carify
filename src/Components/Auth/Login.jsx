@@ -9,15 +9,25 @@ function Login() {
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState('');
+  const [errors, setErrors] = useState({});
   const { login } = useContext(AuthContext);
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
+    setErrors({});
     
-    if (!email || !password) {
-      setError('Please fill in all fields');
+    const newErrors = {};
+    if (!email.trim()) {
+      newErrors.email = 'Username or email is required';
+    }
+    if (!password.trim()) {
+      newErrors.password = 'Password is required';
+    }
+    
+    if (Object.keys(newErrors).length > 0) {
+      setErrors(newErrors);
       return;
     }
 
@@ -26,6 +36,20 @@ function Login() {
       navigate('/');
     } else {
       setError(result.message);
+    }
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+    if (errors.email) {
+      setErrors(prev => ({ ...prev, email: undefined }));
+    }
+  };
+
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+    if (errors.password) {
+      setErrors(prev => ({ ...prev, password: undefined }));
     }
   };
 
@@ -53,9 +77,11 @@ function Login() {
               <input 
                 type="text" 
                 value={email} 
-                onChange={(e) => setEmail(e.target.value)} 
+                onChange={handleEmailChange} 
                 placeholder="Enter username or email"
+                className={errors.email ? 'input-error' : ''}
               />
+              {errors.email && <span className="error-message">{errors.email}</span>}
             </div>
 
             <div className="form-group">
@@ -64,8 +90,9 @@ function Login() {
                 <input 
                   type={showPassword ? 'text' : 'password'} 
                   value={password} 
-                  onChange={(e) => setPassword(e.target.value)} 
+                  onChange={handlePasswordChange} 
                   placeholder="Enter password"
+                  className={errors.password ? 'input-error' : ''}
                 />
                 <button 
                   type="button" 
@@ -75,6 +102,7 @@ function Login() {
                   {showPassword ? <FaEyeSlash /> : <FaEye />}
                 </button>
               </div>
+              {errors.password && <span className="error-message">{errors.password}</span>}
               <a href="#" className="forgot-password-link">Forgot your password?</a>
             </div>
 
