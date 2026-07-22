@@ -1,0 +1,113 @@
+.process-section {
+  padding: 4rem 1rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #141414;
+  margin-bottom: 2rem;
+}
+
+.process-layout {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+.process-steps-container {
+  flex: 1;
+  max-width: 500px;
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 1rem;
+}
+
+.process-steps-container::-webkit-scrollbar {
+  width: 6px;
+}
+.process-steps-container::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.process-steps {
+  border-left: 2px solid #B9BABB;
+  padding-top: 1.25rem;
+}
+
+.process-step {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.process-step h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #898A8C;
+  min-height: 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.process-step h4::before {
+  content: '';
+  position: absolute;
+  left: -1.15rem; /* align with the border */
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background: #727476;
+}
+
+.process-step.active h4 {
+  color: #141414;
+}
+
+.process-step.active h4::before {
+  background: #b30000; /* Primary brand color */
+}
+
+.step-content {
+  font-size: 1rem;
+  color: #141414;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+.process-video {
+  flex: 1;
+  max-width: 650px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.video-iframe-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: black;
+}
+
+.video-iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .process-layout {
+    flex-direction: column;
+  }
+  .process-steps-container {
+    max-width: 100%;
+  }
+  .process-video {
+    max-width: 100%;
+  }
+}

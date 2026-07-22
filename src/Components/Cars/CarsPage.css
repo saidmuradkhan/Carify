@@ -1,0 +1,38 @@
+.cars-page {
+  padding-top: 100px;
+  padding-bottom: 4rem;
+  min-height: 100vh;
+  background-color: var(--bg-section);
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: var(--text-dark);
+}
+
+.cars-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.cars-count {
+  margin-bottom: 1rem;
+  color: var(--text-gray);
+}
+
+.loading-text, .no-results {
+  text-align: center;
+  color: var(--text-gray);
+  padding: 3rem;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 992px) {
+  .cars-layout {
+    grid-template-columns: 1fr;
+  }
+}

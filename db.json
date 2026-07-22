@@ -1,0 +1,928 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "marka": "Land Rover",
+      "model": "Defender",
+      "il": 2024,
+      "yurus_km": 31762,
+      "muherrik_hecmi": 2,
+      "yanacaq_novu": "Benzin",
+      "qiymet_usd": 52900,
+      "status": "Stokda",
+      "sekil": "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [
+        "https://example.com/videos/defender1.mp4"
+      ],
+      "boya_qalinligi": "Normal, orijinal boya",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "Tam dolu komplektasiya, servis kitabçası mövcuddur"
+    },
+    {
+      "id": "2",
+      "marka": "Kia",
+      "model": "K5 (Optima)",
+      "il": 2020,
+      "yurus_km": 165324,
+      "muherrik_hecmi": 2,
+      "yanacaq_novu": "LPG",
+      "qiymet_usd": 9300,
+      "status": "Stokda",
+      "sekil": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Normal",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "LPG sistemi yenidən quraşdırılıb"
+    },
+    {
+      "id": "3",
+      "marka": "Chevrolet",
+      "model": "Malibu",
+      "il": 2017,
+      "yurus_km": 172309,
+      "muherrik_hecmi": 1.5,
+      "yanacaq_novu": "Benzin",
+      "qiymet_usd": 3700,
+      "status": "Stokda",
+      "sekil": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Ön qapıda yüngül təmir izi",
+      "qeza_tarixcesi": "Kiçik toqquşma (ön bufer)",
+      "qeydler": "Ekonom seçim"
+    },
+    {
+      "id": "4",
+      "marka": "Hyundai",
+      "model": "Avante Sport",
+      "il": 2017,
+      "yurus_km": 146227,
+      "muherrik_hecmi": 1.6,
+      "yanacaq_novu": "Benzin",
+      "qiymet_usd": 6100,
+      "status": "Stokda",
+      "sekil": "https://images.unsplash.com/photo-1616788494707-ec28f08d05a1?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Normal",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "Sport paket, deri sükan"
+    },
+    {
+      "id": "5",
+      "marka": "Chevrolet",
+      "model": "Malibu",
+      "il": 2017,
+      "yurus_km": 203629,
+      "muherrik_hecmi": 1.5,
+      "yanacaq_novu": "Benzin",
+      "qiymet_usd": 3500,
+      "status": "Stokda",
+      "sekil": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Normal",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "Yüksək yürüş, qiymət uyğun"
+    },
+    {
+      "id": "6",
+      "marka": "Kia",
+      "model": "K5 (Optima)",
+      "il": 2017,
+      "yurus_km": 121219,
+      "muherrik_hecmi": 2,
+      "yanacaq_novu": "Benzin",
+      "qiymet_usd": 7200,
+      "status": "Stokda",
+      "sekil": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1563720223185-11003d516935?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Normal",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "Tam dolu komplektasiya"
+    },
+    {
+      "id": "7",
+      "marka": "Chevrolet",
+      "model": "Malibu",
+      "il": 2016,
+      "yurus_km": 94000,
+      "muherrik_hecmi": 1.5,
+      "yanacaq_novu": "Benzin",
+      "qiymet_usd": 4500,
+      "status": "Satılıb",
+      "sekil": "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Normal",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "Satılıb"
+    },
+    {
+      "id": "8",
+      "marka": "Kia",
+      "model": "Sorento",
+      "il": 2017,
+      "yurus_km": 139190,
+      "muherrik_hecmi": 2,
+      "yanacaq_novu": "Dizel",
+      "qiymet_usd": 13300,
+      "status": "Satılıb",
+      "sekil": "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1609521270631-f192b152dc34?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Normal",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "Satılıb"
+    },
+    {
+      "id": "9",
+      "marka": "Hyundai",
+      "model": "Tucson",
+      "il": 2021,
+      "yurus_km": 58200,
+      "muherrik_hecmi": 1.6,
+      "yanacaq_novu": "Dizel",
+      "qiymet_usd": 18700,
+      "status": "Stokda",
+      "sekil": "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1621993202323-f438eec934ff?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Normal",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "Az yürüş, servis kitabçası tam"
+    },
+    {
+      "id": "10",
+      "marka": "Genesis",
+      "model": "GV80",
+      "il": 2022,
+      "yurus_km": 32100,
+      "muherrik_hecmi": 3.5,
+      "yanacaq_novu": "Benzin",
+      "qiymet_usd": 47500,
+      "status": "Stokda",
+      "sekil": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1627454820516-dc767bcb4d3e?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Normal",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "Premium komplektasiya"
+    },
+    {
+      "id": "11",
+      "marka": "BMW",
+      "model": "530i",
+      "il": 2021,
+      "yurus_km": 45000,
+      "muherrik_hecmi": 2,
+      "yanacaq_novu": "Benzin",
+      "qiymet_usd": 34000,
+      "status": "Stokda",
+      "sekil": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Normal",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "M paket, ideal vəziyyətdə"
+    },
+    {
+      "id": "12",
+      "marka": "Hyundai",
+      "model": "Santa Fe",
+      "il": 2019,
+      "yurus_km": 112000,
+      "muherrik_hecmi": 2,
+      "yanacaq_novu": "Dizel",
+      "qiymet_usd": 16500,
+      "status": "Stokda",
+      "sekil": "https://images.unsplash.com/photo-1567818735868-e71b99932e29?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1603566723821-397cf07470f1?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Arxa krıloda kraska var",
+      "qeza_tarixcesi": "Yüngül cızıq səbəbindən rənglənib",
+      "qeydler": "7 yerlik, panorama lyuk"
+    },
+    {
+      "id": "13",
+      "marka": "Kia",
+      "model": "Carnival",
+      "il": 2021,
+      "yurus_km": 68000,
+      "muherrik_hecmi": 2.2,
+      "yanacaq_novu": "Dizel",
+      "qiymet_usd": 24500,
+      "status": "Stokda",
+      "sekil": "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1630058721665-27a3c3eef591?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Normal",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "Ailə üçün ideal miniven"
+    },
+    {
+      "id": "14",
+      "marka": "Mercedes-Benz",
+      "model": "E300",
+      "il": 2018,
+      "yurus_km": 95000,
+      "muherrik_hecmi": 2,
+      "yanacaq_novu": "Benzin",
+      "qiymet_usd": 29000,
+      "status": "Stokda",
+      "sekil": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Normal",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "Avantgarde komplektasiya"
+    },
+    {
+      "id": "15",
+      "Toyota": "Toyota",
+      "model": "Camry",
+      "il": 2020,
+      "yurus_km": 82000,
+      "muherrik_hecmi": 2.5,
+      "yanacaq_novu": "Hibrid",
+      "qiymet_usd": 21000,
+      "status": "Stokda",
+      "sekil": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Normal",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "Çox ekonom, tam saz vəziyyətdə"
+    },
+    {
+      "id": "16",
+      "marka": "Hyundai",
+      "model": "Palisade",
+      "il": 2020,
+      "yurus_km": 73000,
+      "muherrik_hecmi": 3.8,
+      "yanacaq_novu": "Benzin",
+      "qiymet_usd": 31500,
+      "status": "Stokda",
+      "sekil": "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Normal",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "Calligraphy maksimal komplektasiya"
+    },
+    {
+      "id": "17",
+      "marka": "Kia",
+      "model": "Sportage",
+      "il": 2019,
+      "yurus_km": 105000,
+      "muherrik_hecmi": 1.6,
+      "yanacaq_novu": "Dizel",
+      "qiymet_usd": 14200,
+      "status": "Satılıb",
+      "sekil": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1494976388531-d1058094e2bd?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Normal",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "Satılıb"
+    },
+    {
+      "id": "18",
+      "marka": "Genesis",
+      "model": "G80",
+      "il": 2021,
+      "yurus_km": 41000,
+      "muherrik_hecmi": 2.5,
+      "yanacaq_novu": "Benzin",
+      "qiymet_usd": 38000,
+      "status": "Stokda",
+      "sekil": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1627454820516-dc767bcb4d3e?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Normal",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "Eleqant interyer, tam texnoloji təchizat"
+    },
+    {
+      "id": "19",
+      "marka": "Hyundai",
+      "model": "Elantra",
+      "il": 2022,
+      "yurus_km": 29000,
+      "muherrik_hecmi": 1.6,
+      "yanacaq_novu": "Benzin",
+      "qiymet_usd": 15800,
+      "status": "Stokda",
+      "sekil": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Normal",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "Yenidən seçilmir, servis zəmanətli"
+    },
+    {
+      "id": "20",
+      "marka": "Tesla",
+      "model": "Model 3",
+      "il": 2021,
+      "yurus_km": 52000,
+      "muherrik_hecmi": 0,
+      "yanacaq_novu": "Elektrik",
+      "qiymet_usd": 26000,
+      "status": "Stokda",
+      "sekil": "https://images.unsplash.com/photo-1563720223185-11003d516935?w=600&auto=format&fit=crop&q=60",
+      "foto": [
+        "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=800&auto=format&fit=crop&q=60"
+      ],
+      "video": [],
+      "boya_qalinligi": "Normal",
+      "qeza_tarixcesi": "Qəza qeydi yoxdur",
+      "qeydler": "Long Range versiyası, batareya saz vəziyyətdə"
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": "1",
+      "baslik": "Carnival Avtomobili Azərbaycana: Koreya Miniveni Ailəniz Üçün Doğru Seçim?",
+      "qisa_tesvir": "Kia Carnival – geniş salon, yüksək təhlükəsizlik, rahat sürüş. Carify ilə Koreyadan birbaşa Azərbaycana ixrac prosesi haqqında.",
+      "tam_metn": "Kia Carnival ailələr üçün geniş salon, yüksək təhlükəsizlik reytinqi və rahat sürüş imkanları ilə seçilir. Carify komandası bu modeli Koreyadan Azərbaycana ixrac edərkən gömrük, vergi və logistika proseslərində tam dəstək göstərir.",
+      "sekil": "https://picsum.photos/seed/blog1/700/400",
+      "tarix": "2026-07-20",
+      "oxuma_linki": "/blog/carnival-azerbaycan"
+    },
+    {
+      "id": "2",
+      "baslik": "2027 BMW X5: Koreyadan Azərbaycana İxrac — Bilməli Olduğunuz Hər Şey",
+      "qisa_tesvir": "2027 BMW X5 artıq Koreya salonlarında mövcuddur. Carify onu birbaşa Koreyadan Azərbaycana ixrac edir.",
+      "tam_metn": "Yeni BMW X5 modelinin Koreya bazarındakı qiymətləri, texniki xüsusiyyətləri və Azərbaycana ixrac zamanı gömrük prosedurları haqqında ətraflı məlumat.",
+      "sekil": "https://picsum.photos/seed/blog2/700/400",
+      "tarix": "2026-07-14",
+      "oxuma_linki": "/blog/bmw-x5-2027"
+    },
+    {
+      "id": "3",
+      "baslik": "Koreya Avtomobil Bazarı və İxrac Üstünlükləri: Encar, KBchachacha, Heydealer Platformaları",
+      "qisa_tesvir": "Koreyadan avtomobil ixracı niyə bu qədər sərfəlidir? Encar, KBchachacha və Heydealer platformaları haqqında.",
+      "tam_metn": "Koreya daxili bazar platformaları şəffaf qiymətləndirmə, geniş model seçimi və rəsmi keyfiyyət təminatı təqdim edir. Bu, xarici alıcılar üçün etibarlı alış prosesi yaradır.",
+      "sekil": "https://picsum.photos/seed/blog3/700/400",
+      "tarix": "2026-07-13",
+      "oxuma_linki": "/blog/koreya-bazar-platformalari"
+    },
+    {
+      "id": "4",
+      "baslik": "Koreya Qiyməti vs Azərbaycan Qiyməti: Hyundai Tucson üçün Carify ilə Nə Qədər Qənaət Edirsiniz?",
+      "qisa_tesvir": "Hyundai Tucson-u Azərbaycanda yerli qiymətə almaq mı, yoxsa Carify vasitəsilə ixrac etdirmək mi sərfəlidir?",
+      "tam_metn": "Real rəqəmlər əsasında Hyundai Tucson-un Koreya və Azərbaycan bazarındakı qiymət fərqi, gömrük xərcləri və ümumi qənaət hesablanır.",
+      "sekil": "https://picsum.photos/seed/blog4/700/400",
+      "tarix": "2026-07-10",
+      "oxuma_linki": "/blog/tucson-qiymet-muqayisesi"
+    },
+    {
+      "id": "5",
+      "baslik": "Elektrikli Avtomobillərin Koreyadan İxracı: Rüsumlar və Üstünlüklər",
+      "qisa_tesvir": "Koreyadan gətirilən elektrikli avtomobillərin gömrük rüsumları və gələcəyin yaşıl texnologiyaları haqqında.",
+      "tam_metn": "Azərbaycanda elektrikli avtomobillərə tətbiq edilən güzəştli gömrük siyasəti və Koreyadan Hyundai Ioniq və ya Kia EV6 modellərinin gətirilməsinin maliyyə üstünlükləri.",
+      "sekil": "https://picsum.photos/seed/blog5/700/400",
+      "tarix": "2026-07-08",
+      "oxuma_linki": "/blog/elektrik-avto-ixrac"
+    },
+    {
+      "id": "6",
+      "baslik": "Avtomobil alarkən aldanmayın: Encar Hesabatı Necə Oxunmalıdır?",
+      "qisa_tesvir": "Cənubi Koreyanın ən böyük platforması olan Encar-da avtomobilin qəza və boya tarixçəsini düzgün analiz etməyin yolları.",
+      "tam_metn": "Encar platformasında təqdim olunan diaqnostika vərəqlərinin tərcüməsi, rənglənmiş detalların işarələri və gizli qüsurların aşkarlanması barədə rəhbər.",
+      "sekil": "https://picsum.photos/seed/blog6/700/400",
+      "tarix": "2026-07-05",
+      "oxuma_linki": "/blog/encar-hesabati-oxumaq"
+    },
+    {
+      "id": "7",
+      "baslik": "LPG Avtomobillər: Koreyadan Gələn Qənaətli Seçimin Sirri",
+      "qisa_tesvir": "Kia K5 və Hyundai Sonata LPG modellərinin yanacaq iqtisadiyyatı və Azərbaycandakı istismar şəraiti.",
+      "tam_metn": "Zavod istehsalı olan maye qaz (LPG) sistemli mühərriklərin dözümlülüyü, xidmət xərcləri və yerli yanacaq doldurma məntəqələrinə uyğunluğu.",
+      "sekil": "https://picsum.photos/seed/blog7/700/400",
+      "tarix": "2026-07-01",
+      "oxuma_linki": "/blog/lpg-avtomobiller-sirri"
+    },
+    {
+      "id": "8",
+      "baslik": "Konteyner yoxsa Ro-Ro? Carify ilə Avtomobil Daşınmasının Təhlükəsizliyi",
+      "qisa_tesvir": "Koreya limanlarından Azərbaycana gələn avtomobillərin logistik marşrutları və daşınma tiplərinin müqayisəsi.",
+      "tam_metn": "Gəmilərlə daşınma zamanı konteyner və Ro-Ro (Roll-on/roll-off) metodlarının qiymət fərqi, riskləri və çatdırılma müddətlərinin müqayisəli analizi.",
+      "sekil": "https://picsum.photos/seed/blog8/700/400",
+      "tarix": "2026-06-25",
+      "oxuma_linki": "/blog/daşinma-tipleri-müqayisə"
+    }
+  ],
+  "shipments": [
+    {
+      "id": "1",
+      "avtomobiller": [
+        "Kia Sorento (2020)",
+        "Hyundai Santafe (2016)",
+        "Kia Sorento (2022)",
+        "Chevrolet Malibu (2016)"
+      ],
+      "gonderilme_tarixi": "2026-07-03",
+      "gonderildiyi_olke": "Bakı/Azərbaycan",
+      "catma_tarixi": "2026-09-03",
+      "gonderilme_tipi": "Konteyner"
+    },
+    {
+      "id": "2",
+      "avtomobiller": [
+        "Kia K5 (2021)",
+        "Genesis GV70 (2022)"
+      ],
+      "gonderilme_tarixi": "2026-06-15",
+      "gonderildiyi_olke": "Bakı/Azərbaycan",
+      "catma_tarixi": "2026-08-20",
+      "gonderilme_tipi": "RoRo"
+    },
+    {
+      "id": "3",
+      "avtomobiller": [
+        "Hyundai Tucson (2021)",
+        "Kia Sportage (2020)",
+        "BMW 530i (2021)"
+      ],
+      "gonderilme_tarixi": "2026-07-10",
+      "gonderildiyi_olke": "Bakı/Azərbaycan",
+      "catma_tarixi": "2026-09-15",
+      "gonderilme_tipi": "Konteyner"
+    },
+    {
+      "id": "4",
+      "avtomobiller": [
+        "Hyundai Avante (2018)",
+        "Chevrolet Malibu (2017)"
+      ],
+      "gonderilme_tarixi": "2026-07-18",
+      "gonderildiyi_olke": "Astana/Qazaxıstan",
+      "catma_tarixi": "2026-08-30",
+      "gonderilme_tipi": "RoRo"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "ad_soyad": "Salayev Sadiq",
+      "avtomobil_modeli": "Kia Sorento",
+      "olke": "Azerbaijan"
+    },
+    {
+      "id": "2",
+      "ad_soyad": "Rəhimov Rəhim",
+      "avtomobil_modeli": "Kia Sorento",
+      "olke": "Azerbaijan"
+    },
+    {
+      "id": "3",
+      "ad_soyad": "Məmmədov Nahid",
+      "avtomobil_modeli": "Hyundai Palisade",
+      "olke": "Azerbaijan"
+    },
+    {
+      "id": "4",
+      "ad_soyad": "Nurəddinli Amal",
+      "avtomobil_modeli": "Hyundai Grandeur",
+      "olke": "Russia"
+    },
+    {
+      "id": "5",
+      "ad_soyad": "Evgenii Valuy",
+      "avtomobil_modeli": "Mercedes Benz G400d",
+      "olke": "Azerbaijan"
+    },
+    {
+      "id": "6",
+      "ad_soyad": "Nemət Əsgərov",
+      "avtomobil_modeli": "Kia K5",
+      "olke": "Russia"
+    },
+    {
+      "id": "7",
+      "ad_soyad": "Muradin Biramov",
+      "avtomobil_modeli": "Kia Carnival",
+      "olke": "Russia"
+    },
+    {
+      "id": "8",
+      "ad_soyad": "Tağızadə Şəhruz",
+      "avtomobil_modeli": "BMW 530i",
+      "olke": "Azerbaijan"
+    },
+    {
+      "id": "9",
+      "ad_soyad": "Cabbarlı Rəşad",
+      "avtomobil_modeli": "Hyundai Grandeur",
+      "olke": "Azerbaijan"
+    },
+    {
+      "id": "10",
+      "ad_soyad": "Əliyev İlqar",
+      "avtomobil_modeli": "Kia Sportage",
+      "olke": "Azerbaijan"
+    },
+    {
+      "id": "11",
+      "ad_soyad": "Həsənov Vüsal",
+      "avtomobil_modeli": "Hyundai Tucson",
+      "olke": "Azerbaijan"
+    },
+    {
+      "id": "12",
+      "ad_soyad": "Quliyev Elşən",
+      "avtomobil_modeli": "Genesis GV80",
+      "olke": "Azerbaijan"
+    },
+    {
+      "id": "13",
+      "ad_soyad": "Kərimov Anar",
+      "avtomobil_modeli": "Toyota Camry",
+      "olke": "Azerbaijan"
+    },
+    {
+      "id": "14",
+      "ad_soyad": "Dmitry Sidorov",
+      "avtomobil_modeli": "Kia K5",
+      "olke": "Russia"
+    },
+    {
+      "id": "15",
+      "ad_soyad": "Babayev Elvin",
+      "avtomobil_modeli": "Hyundai Santa Fe",
+      "olke": "Azerbaijan"
+    },
+    {
+      "id": "16",
+      "ad_soyad": "Nazarbaev Aslan",
+      "avtomobil_modeli": "Hyundai Sonata",
+      "olke": "Kazakhstan"
+    },
+    {
+      "id": "17",
+      "ad_soyad": "İbrahimov Rauf",
+      "avtomobil_modeli": "Chevrolet Malibu",
+      "olke": "Azerbaijan"
+    },
+    {
+      "id": "18",
+      "ad_soyad": "Muradov Zaur",
+      "avtomobil_modeli": "Land Rover Defender",
+      "olke": "Azerbaijan"
+    },
+    {
+      "id": "19",
+      "ad_soyad": "Aleksey Volkov",
+      "avtomobil_modeli": "Kia Sorento",
+      "olke": "Russia"
+    },
+    {
+      "id": "20",
+      "ad_soyad": "Mustafayev Tural",
+      "avtomobil_modeli": "BMW X5",
+      "olke": "Azerbaijan"
+    }
+  ],
+  "team": [
+    {
+      "id": "1",
+      "ad_soyad": "Hüseynov Orxan",
+      "vezife": "Təsisçi",
+      "olke": "Azərbaycan",
+      "foto": "https://picsum.photos/seed/team1/300/300"
+    },
+    {
+      "id": "2",
+      "ad_soyad": "Süleymanov Turan",
+      "vezife": "Direktor",
+      "olke": "Azərbaycan",
+      "foto": "https://picsum.photos/seed/team2/300/300"
+    },
+    {
+      "id": "3",
+      "ad_soyad": "Daşdəmirova Səbinə",
+      "vezife": "Baş menecer",
+      "olke": "Azərbaycan",
+      "foto": "https://picsum.photos/seed/team3/300/300"
+    },
+    {
+      "id": "4",
+      "ad_soyad": "Talıbova Fidan",
+      "vezife": "Menecer",
+      "olke": "Azərbaycan",
+      "foto": "https://picsum.photos/seed/team4/300/300"
+    },
+    {
+      "id": "5",
+      "ad_soyad": "Kim Bongtae",
+      "vezife": "Menecer",
+      "olke": "Cənubi Koreya",
+      "foto": "https://picsum.photos/seed/team5/300/300"
+    },
+    {
+      "id": "6",
+      "ad_soyad": "Li Juvon",
+      "vezife": "İnspektor",
+      "olke": "Cənubi Koreya",
+      "foto": "https://picsum.photos/seed/team6/300/300"
+    },
+    {
+      "id": "7",
+      "ad_soyad": "So Juhi",
+      "vezife": "İnspektor",
+      "olke": "Cənubi Koreya",
+      "foto": "https://picsum.photos/seed/team7/300/300"
+    },
+    {
+      "id": "8",
+      "ad_soyad": "Qasımov Fərid",
+      "vezife": "Logistika Eksperti",
+      "olke": "Azərbaycan",
+      "foto": "https://picsum.photos/seed/team8/300/300"
+    },
+    {
+      "id": "9",
+      "ad_soyad": "Park Minsoo",
+      "vezife": "Maliyyə Meneceri",
+      "olke": "Cənubi Koreya",
+      "foto": "https://picsum.photos/seed/team9/300/300"
+    },
+    {
+      "id": "10",
+      "ad_soyad": "Xəlilova Aysel",
+      "vezife": "Müştəri Xidmətləri",
+      "olke": "Azərbaycan",
+      "foto": "https://picsum.photos/seed/team10/300/300"
+    },
+    {
+      "id": "11",
+      "ad_soyad": "Choi Jinsung",
+      "vezife": "Texniki Inspektor",
+      "olke": "Cənubi Koreya",
+      "foto": "https://picsum.photos/seed/team11/300/300"
+    },
+    {
+      "id": "12",
+      "ad_soyad": "Məmmədov Rəşad",
+      "vezife": "Gömrük Brokeri",
+      "olke": "Azərbaycan",
+      "foto": "https://picsum.photos/seed/team12/300/300"
+    },
+    {
+      "id": "13",
+      "ad_soyad": "Kang Ha-neul",
+      "vezife": "Satınalma Meneceri",
+      "olke": "Cənubi Koreya",
+      "foto": "https://picsum.photos/seed/team13/300/300"
+    },
+    {
+      "id": "14",
+      "ad_soyad": "Əliyeva Ləman",
+      "vezife": "Hüquqşünas",
+      "olke": "Azərbaycan",
+      "foto": "https://picsum.photos/seed/team14/300/300"
+    }
+  ],
+  "faq": [
+    {
+      "id": "1",
+      "sual": "Niyə Cənubi Koreyadan ikinci əl avtomobil almalıyam?",
+      "cavab": "Koreya daxili bazar avtomobilləri dünyada ən sərfəli variantlardan biridir. Yumşaq qışlar və az reagent istifadəsi kuzovun az korroziyaya uğramasına səbəb olur. Alıcılar adətən Avropa analoqlarına nisbətən 30–40% qənaət edir."
+    },
+    {
+      "id": "2",
+      "sual": "Alış prosesi addım-addım necə gedir?",
+      "cavab": "Ofisə gəliş və müqavilənin imzalanması, xidmət haqqının ödənilməsi, avtomobilin axtarışı və yoxlanışı, rezervasiya, ödəniş, göndərilmə və gömrük rəsmiləşdirilməsi mərhələlərindən ibarətdir."
+    },
+    {
+      "id": "3",
+      "sual": "Xidmət haqqı var?",
+      "cavab": "Bəli, xidmət haqqı avtomobil axtarışı başlamazdan əvvəl ödənilir."
+    },
+    {
+      "id": "4",
+      "sual": "Avtomobil dediyinizdən pis çıxsa, behim nə olur?",
+      "cavab": "Avtomobil təsvirə uyğun gəlmədikdə müştəriyə alternativ təklif olunur və ya ödəniş geri qaytarılır."
+    },
+    {
+      "id": "5",
+      "sual": "Avtomobillər necə yoxlanılır?",
+      "cavab": "Kuzov, alt hissə, mühərrik bölməsi, rəng qalınlığı ölçümü və rəsmi qəza tarixçəsi yoxlanılır. 5 video və 50-dən çox fotoşəkil təqdim edilir."
+    },
+    {
+      "id": "6",
+      "sual": "Avtomobil kimin adına olur?",
+      "cavab": "Avtomobil rezerv olunduqdan sonra ixrac sənədləri birbaşa alıcının adına hazırlanır."
+    },
+    {
+      "id": "7",
+      "sual": "Ödəniş necə olur?",
+      "cavab": "Rəsmi invoys əsasında 3 iş günü ərzində bank köçürməsi ilə həyata keçirilir."
+    },
+    {
+      "id": "8",
+      "sual": "Çatdırılma nə qədər çəkir?",
+      "cavab": "Çin üzərindən 35-50 gün, Poti (Gürcüstan) üzərindən 95-115 gün."
+    },
+    {
+      "id": "9",
+      "sual": "Hansı ölkələrə çatdırırsınız?",
+      "cavab": "Azərbaycan, Qazaxıstan, Qırğızıstan, Rusiya və Avropanın bir çox ölkəsinə."
+    },
+    {
+      "id": "10",
+      "sual": "Avtomobilin qəzalı və ya suda batmış olmadığını necə bilim?",
+      "cavab": "Rəsmi NV tarixçəsi hesabatı və komputerli texniki yoxlama ilə təsdiqlənir."
+    },
+    {
+      "id": "11",
+      "sual": "Avtomobilin qiymətinə gömrük rüsumları daxildir?",
+      "cavab": "Xeyr, saytda və ya təkliflərdə göstərilən ilkin qiymət yalnız Koreyadakı alış və logistika xərclərini əhatə edə bilər. Gömrük rəsmləşdirilməsi Azərbaycana çatdıqda yerli qanunvericiliyə uyğun olaraq ayrıca ödənilir."
+    },
+    {
+      "id": "12",
+      "sual": "Koreyadan hibrid avtomobil gətirmək sərfəlidirmi?",
+      "cavab": "Bəli, hibrid avtomobillər həm ekoloji cəhətdən təmizdir, həm də Azərbaycanda gömrük rüsumlarında müəyyən güzəştli əmsallara (məsələn 0.7) malikdirlər ki, bu da son xərclərə qənaət edir."
+    },
+    {
+      "id": "13",
+      "sual": "Avtomobil yoldaykən sığortalanırmı?",
+      "cavab": "Bəli, Carify vasitəsilə ixrac edilən bütün avtomobillər dəniz və quru daşınması müddətində yarana biləcək hər hansı fors-major hallara qarşı tam sığortalanır."
+    },
+    {
+      "id": "14",
+      "sual": "İstədiyim xüsusi komplektasiyanı sifariş edə bilərəm?",
+      "cavab": "Bəli, we müqavilə əsasında sizin tələblərinizə (rəng, disk ölçüsü, salon materialı, lyuk və s.) tam uyğun gələn avtomobilləri Encar və digər daxili bazarlardan axtarıb tapırıq."
+    },
+    {
+      "id": "15",
+      "sual": "Koreya avtomobillərinin yürüşü (probeq) orijinal olurmu?",
+      "cavab": "Cənubi Koreyada yürüşün geri çəkilməsi ciddi qanuni məsuliyyət daşıyır. Eyni zamanda bizim müfəttişlər rəsmi dövlət sənədləri və texniki baxış tarixçəsi ilə yürüşün tam orijinallığını yoxlayırlar."
+    },
+    {
+      "id": "16",
+      "sual": "Sifarişi ləğv etmək mümkündürmü?",
+      "cavab": "Avtomobil Koreya limanına yola düşməzdən əvvəl müəyyən şərtlərlə və yaranan ilkin xərclər tutulmaqla ləğv edilə bilər. Lakin ixrac bəyannaməsi yazıldıqdan sonra prosesi dayandırmaq mümkün deyil."
+    },
+    {
+      "id": "17",
+      "sual": "Bakıdakı ofisinizdə real avtomobillərə baxmaq olar?",
+      "cavab": "Bəli, Bakı anbarımızda (və ya stokumuzda) olan və hazırda satışda olan avtomobilləri canlı yoxlaya bilərsiniz. Sifarişlə gələnlər isə birbaşa sahibinə təhvil verilir."
+    },
+    {
+      "id": "18",
+      "sual": "Avtomobilin ehtiyat hissələrini tapmaq asandır?",
+      "cavab": "Koreya modellərinin (Kia, Hyundai) ehtiyat hissələri Azərbaycanda çox geniş yayılıb və olduqca əlçatandır. Həmçinin Carify vasitəsilə Koreyadan orijinal hissələr də sifariş etmək olar."
+    },
+    {
+      "id": "19",
+      "sual": "Ödəniş hissə-hissə (kreditlə) edilə bilər?",
+      "cavab": "Koreyadakı alış prosesi tam ödəniş tələb edir, lakin yerli bank tərəfdaşlarımız vasitəsilə avtomobil Bakıya çatdıqdan sonra rəsmiləşdirilmə üçün kredit və ya lizinq şərtləri tətbiq edilə bilər."
+    },
+    {
+      "id": "20",
+      "sual": "Gömrük kalkulyatoru necə işləyir?",
+      "cavab": "Avtomobilin mühərrik həcmi, istehsal oli və yanacaq növünə əsasən sistem avtomatik olaraq daxili əmsalları hesablayaraq sizə təxmini xərci çıxarır."
+    }
+  ],
+  "brands": [
+    {
+      "id": "1",
+      "name": "Kia"
+    },
+    {
+      "id": "2",
+      "name": "Hyundai"
+    },
+    {
+      "id": "3",
+      "name": "Chevrolet"
+    },
+    {
+      "id": "4",
+      "name": "Land Rover"
+    },
+    {
+      "id": "5",
+      "name": "BMW"
+    },
+    {
+      "id": "6",
+      "name": "Genesis"
+    },
+    {
+      "id": "7",
+      "name": "Toyota"
+    },
+    {
+      "id": "8",
+      "name": "Mercedes-Benz"
+    },
+    {
+      "id": "9",
+      "name": "Audi"
+    },
+    {
+      "id": "10",
+      "name": "Volkswagen"
+    },
+    {
+      "id": "11",
+      "name": "Lexus"
+    },
+    {
+      "id": "12",
+      "name": "Porsche"
+    },
+    {
+      "id": "13",
+      "name": "Tesla"
+    },
+    {
+      "id": "14",
+      "name": "Nissan"
+    },
+    {
+      "id": "15",
+      "name": "Ford"
+    },
+    {
+      "id": "16",
+      "name": "Honda"
+    }
+  ],
+  "customsRates": [
+    {
+      "id": "1",
+      "gomruk_rusumu_faiz": 15,
+      "edv_faiz": 18,
+      "aksiz_her_sm3": 0.3
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@carify-global.com",
+      "password": "admin"
+    },
+    {
+      "name": "said muradkhan",
+      "email": "saidmuradkhan414@gmail.com",
+      "password": "fxrU9KVV9M2YxAN",
+      "id": "UZeJyTZnGV8"
+    },
+    {
+      "name": "said",
+      "email": "saidmuradkhan41@gmail.com",
+      "password": "fxrU9KVV9M2YxAN",
+      "id": "x_eoWfE2IXs"
+    }
+  ]
+}
