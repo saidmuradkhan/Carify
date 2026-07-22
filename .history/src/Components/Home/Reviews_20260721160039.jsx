@@ -29,17 +29,14 @@ function Reviews() {
             <div key={review.id} className="review-card">
               <div className="review-header">
                 <div>
-                  {/* FIX: db.json-da sahələr "ad_soyad" və "avtomobil_modeli" adlanır */}
-                  <h4 className="review-author">{review.ad_soyad}</h4>
-                  <p className="review-car">{review.avtomobil_modeli}</p>
+                  <h4 className="review-author">{review.ad}</h4>
+                  <p className="review-car">{review.masin_modeli}</p>
                 </div>
                 <span className="review-country">{review.olke}</span>
               </div>
               <div className="review-stars">
-                {/* FIX: "reytinq" sahəsi olmaya bilər, default olaraq 5 ulduz göstər */}
-                {[...Array(review.reytinq || 5)].map((_, i) => <FaStar key={i} />)}
+                {[...Array(review.reytinq)].map((_, i) => <FaStar key={i} />)}
               </div>
-              {/* FIX: "metn" sahəsi db.json-da yox idi, aşağıdakı db.json-a əlavə edildi */}
               <p className="review-text">{review.metn}</p>
             </div>
           ))}
